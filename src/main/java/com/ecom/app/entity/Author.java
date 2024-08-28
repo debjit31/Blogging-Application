@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "authors")
+@Table(name = "authors", schema = "hubexspw")
 public class Author {
 
     @Id

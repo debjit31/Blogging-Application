@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "comments")
+@Table(name = "comments", schema = "hubexspw")
 public class Comment {
 
     @Id

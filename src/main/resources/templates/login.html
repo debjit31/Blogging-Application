@@ -64,6 +64,16 @@
         .login-container .forgot-password:hover {
             text-decoration: underline;
         }
+        .login-container .create-user {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            color: #28a745;
+            text-decoration: none;
+        }
+        .login-container .create-user:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -79,6 +89,7 @@
         <input type="submit" value="Login" />
     </form>
     <a th:href="@{/forgot-password}" class="forgot-password">Forgot your password?</a>
+    <a th:href="@{/registerPage}" class="create-user">Register User</a>
 </div>
 
 </body>
